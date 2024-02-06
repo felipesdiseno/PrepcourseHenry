@@ -3,4 +3,7 @@
 
 const nuevoNumero = null;
 
+var numero = 5;
+
 module.exports = nuevoNumero;
+

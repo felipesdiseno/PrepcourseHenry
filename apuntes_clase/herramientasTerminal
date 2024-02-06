@@ -1,0 +1,25 @@
+
+cli: consola para una linea de comando
+gui: son intefaces graficas con las cuales se interactua por medio de   
+nui: permite interactuar con un interfaz por medio de gestos y comando de voz. 
+
+comandos basicos git: 
+
+pwd : ver en que directorio estoy actualmente 
+
+ls: muestra todos los archivos de la carpeta actual 
+
+cd y el nombre de la carpeta accede a esa carpeta //cambiar de carpeta
+
+cd .. : permite volver atrás entre carpetas //salir de la carpeta
+
+mkdir: crea un directorio 
+
+para crear una carpetas se que tengan un nombre compuesto por mas de una palabra se debe escribir entre comillas " carpeta con nombre"
+
+
+touch: permite crear archivos // recordar escribir nombre compuesto entre comillas " "
+
+rm: elimina el archivo 
+rm -r : fuerza el borrado de carpetas y arhcivos 
+

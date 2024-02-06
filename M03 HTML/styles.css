@@ -1,0 +1,50 @@
+/* 
+class = .nombre
+#id = #nombre
+*/
+
+body{
+    background-color: #f7dfd4;
+}
+.banner {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.titulo {
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0em 0em 0em 0.5em ;
+    color: #874e4c;
+}
+
+.subtitulo {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0em 0em 1em .6em ;
+    color:#874e4c; 
+}
+
+.parraf {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0em 0em 1em 1em ;
+    color:#323339; 
+}
+
+.map {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/*motos*/
