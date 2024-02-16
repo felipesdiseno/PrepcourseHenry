@@ -3,6 +3,9 @@ function verificarPropiedad(objeto, propiedad) {
   // Retorna true si la tiene, sino retorna false.
   // PISTA: Puedes usar el método hasOwnProperty().
   // Tu código:
+  if(objeto.hasOwnProperty(propiedad)){
+    return true;
+  }
 }
 
 module.exports = verificarPropiedad;

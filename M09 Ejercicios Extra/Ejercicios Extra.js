@@ -22,6 +22,17 @@ function capToFront(string) {
   // Retornar el string.
   // [EJEMPLO]: soyHENRY ---> HENRYsoy
   // Tu código:
+var mayusculas = "";
+var minusculas = "";
+  for(var i = 0; i < string.length; i++){
+    var caracter = string.charAt(i);
+
+    if (caracter === caracter.toUpperCase() && caracter !== caracter.toLowerCase()){
+      mayúsculas += caracter;
+    }
+  }
+  return {mayusculas: mayusculas, minusculas: minusculas};
+
 }
 
 function asAmirror(frase) {
@@ -29,18 +40,34 @@ function asAmirror(frase) {
   // La diferencia es que cada palabra estará escrita al inverso.
   // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
   // Tu código:
+  var split = frase.split("");
+  var inverso = split.reverse();
+  var modificado = inverso.join("");
+  return modificado;
 }
 
 function capicua(numero) {
   // Si el número que recibes es capicúa debes retornar el string: "Es capicua".
   // Caso contrario: "No es capicua".
   // Tu código:
+var cadena = numero.toString();
+var invertido = cadena.split("").reverse().join("");
+  if(cadena === invertido){
+    return "Es capicua"
+  } else return "No es capicua"
 }
+
 
 function deleteAbc(string) {
   // Tu tarea es eliminar las letras "a", "b" y "c" del string recibido.
   // Retorna el string sin estas letras.
   // Tu código:
+  var caracteres = string.split("");
+  var nuevosCaracteres = caracteres.filter(function(caracter){
+    return caracter !== "a" && caracter !== "b" && caracter !== "c";
+  });
+  var resultado = nuevosCaracteres.join("");
+  return resultado;
 }
 
 function sortArray(arrayOfStrings) {
@@ -49,6 +76,8 @@ function sortArray(arrayOfStrings) {
   // de la longitud de cada string.
   // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
   // Tu código:
+  var orden = arrayOfStrings.sort();
+  return orden;
 }
 
 function buscoInterseccion(array1, array2) {
@@ -58,6 +87,14 @@ function buscoInterseccion(array1, array2) {
   // Si no tienen elementos en común, retornar un arreglo vacío.
   // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
   // Tu código:
+  for(var i = 0; i <array1.length; i++){
+    var elemento = array1[i];
+    if(array2.includes(elemento)){
+      nuevoElemento.push(elemento);
+    }
+
+}
+return nuevoElemento;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
@@ -71,3 +108,6 @@ module.exports = {
   sortArray,
   buscoInterseccion,
 };
+
+
+

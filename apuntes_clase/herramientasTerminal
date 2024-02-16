@@ -23,3 +23,36 @@ touch: permite crear archivos // recordar escribir nombre compuesto entre comill
 rm: elimina el archivo 
 rm -r : fuerza el borrado de carpetas y arhcivos 
 
+git: es la consola de texto  
+
+git add . agrega todos los archivos al commit 
+
+git add + nombre del archivo agrega un archivo en especifico
+
+git commit -m los commits deben tener siempre un mensaje 
+
+git push : agrega los archivos al repositorio de git hub "empuja"
+
+git status: permite ve en que estado estan los archivos 
+
+git log: permite ver los commits que se han hecho 
+
+git pull permite bajar desde git hub los cambios realizados en un repositorio
+
+
+HTML
+la pagina siempre lee el codigo de arriba hacia abajo
+charset = da la codificiación. 
+
+<head> almacena metadatos, 
+ <meta charset= "UTF-8"> <!--no tiene etiqueta de cierre  -->
+<meta name = "viewport"  content= "with=device-width, initial-scale=1.0"> <!--es el tamaño de la pantalla donde se quiere visualizar la pagina !--->
+<title> este es el nombre de la pagina que será visualizado en el navegador</title>
+</head>
+
+<!-- para comentar se puede utilizar el comando crtl + k y despues oprime c o tambien se puede usar y para descomentar ctrl + k + u  <!-- --> 
+<body>
+acá va el contenido de la pagina web
+</body>
+
+w3schools.com => pagina para ver etiquetas html

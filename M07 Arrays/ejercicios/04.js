@@ -5,10 +5,12 @@ function obtenerElementoAleatorio(array) {
   // PISTA: Usa el método Math.random().
   // Tu código:
 
-console.log(numeros); 
+  var indice = Math.floor(Math.random() * array.length);
+return array[indice];
 
 }
 
 encontrarElementoRepetido
 
 module.exports = obtenerElementoAleatorio;
+
